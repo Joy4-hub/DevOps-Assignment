@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>📚 Book Tracker App </h1>
+
+    <!-- Add Book Form -->
+    <form id="bookForm">
+        <input type="text" id="title" placeholder="Book Title" required>
+        <input type="text" id="author" placeholder="Author" required>
+        <input type="text" id="genre" placeholder="Genre">
+        <input type="number" id="year" placeholder="Year">
+        <button type="submit">Add Book</button>
+    </form>
+
+    <!-- View Books Button -->
+    <button id="viewBooksBtn">View Books</button>
+
+    <h2>📖 Books</h2>
+    <ul id="bookList"></ul>
+
+    <script src="script.js"></script>
+</body>
+</html>
